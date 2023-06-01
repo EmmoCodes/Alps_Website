@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Cinzel";
+  src: url("../fonts/Cinzel/Cinzel-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+body {
+  background-color: #fff;
+}
+
+h2 {
+  font-family: "Cinzel";
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.menubar ul,
+li,
+a {
+  color: #999;
+  font-family: "Cinzel";
+  font-size: 30px;
+  list-style: none;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+.head {
+  background-image: url("../img/backgroundalps.avif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 750px;
+  width: 100%;
+}
+
+.head h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 200;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.head-title::after {
+  content: "\a";
+  white-space: pre;
+}
+
+.information h2 {
+  color: #333;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.information p {
+  font-family: "Poppins";
+  margin-bottom: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.picture {
+  aspect-ratio: 16/9;
+  margin-bottom: 80px;
+  margin-left: 50px;
+  width: 350px;
+}
+
+.picturegrid {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.tour-dates h2 {
+  color: black;
+  font-family: "Cinzel";
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.tour-dates ul li {
+  color: black;
+  font-family: "Poppins";
+  font-size: 16px;
+  margin-left: 125px;
+}
+.tour-dates {
+  margin-bottom: 100px;
+}
+
+.sold-out::after {
+  color: red;
+  content: "- SOLD OUT";
+  margin-left: 5px;
+}
+
+.nearly-sold::after {
+  color: red;
+  content: "- ONLY 4 SPOTS AVAILABLE";
+  margin-left: 5px;
+}
+
+.available::after {
+  color: green;
+  content: " - AVAILABLE";
+  margin-left: 5px;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  max-height: 50px;
+}
+
+footer ul li {
+  font-family: "Cinzel";
+  font-size: 30px;
+  padding-bottom: 30px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.footer-icon {
+  height: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  vertical-align: middle;
+}
